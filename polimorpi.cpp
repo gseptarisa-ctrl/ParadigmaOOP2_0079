@@ -8,3 +8,9 @@ public:
     }
 };
 
+class joko : public seseorang {
+public:
+    void pesan() override {
+        cout << "Pesan dari Joko." << endl;
+    }
+};
